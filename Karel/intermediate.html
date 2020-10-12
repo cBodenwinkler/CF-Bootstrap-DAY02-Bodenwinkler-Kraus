@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Movie</title>
+    <style type="text/css">
+      .nav-pills .nav-link.active {
+        background-color: #BB0803!important;
+      }
+
+      .cmtImg {
+        width: 64px;
+        height: 64px;
+        object-fit: scale-down;
+      }
+
+      .poster {
+        width: 300px;
+        height: auto;
+      }
+    </style>
+
+  </head>
+  <body>
+
+   
+    
+    <div class="container-fluid">
+
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Blade Runner 2049</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="intermediate_index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#v-pills-home">Story</a>
+                  <a class="dropdown-item" href="#v-pills-profile">Starring</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#v-pills-messages">Pictures</a>
+                  <a class="dropdown-item" href="#v-pills-settings">Comments</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+      <div class="row mt-2">
+        <div class="col-3">
+          <div class="nav flex-column nav-pills red" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Story</a>
+            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Starring</a>
+            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Pictures</a>
+            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Comments</a>
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <img src="https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SY1000_CR0,0,674,1000_AL_.jpg" class="rounded float-right poster" alt="...">
+              <p class="mb1">Thirty years after the events of Blade Runner (1982), a new Blade Runner, L.A.P.D. Officer "K" (Ryan Gosling), unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard (Harrison Ford), a former L.A.P.D. Blade Runner, who has been missing for thirty years.</p>
+              <iframe width="600" height="344" src="https://www.youtube.com/embed/gCcx85zbxz4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" id="actors">
+              <table class="table">
+               <thead>
+                 <tr>
+                   <th scope="col">Actor</th>
+                   <th scope="col">Movie name</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <th scope="row">Harrison Ford</th>
+                   <td>Rick Deckard</td>
+                 </tr>
+                 <tr>
+                   <th scope="row">Ryan Gosling</th>
+                   <td>'K'</td>
+                 </tr>
+                 <tr>
+                   <th scope="row">Dave Bautista</th>
+                   <td>Sapper Morton</td>
+                 </tr>
+                 <tr>
+                   <th scope="row">Jared Leto</th>
+                   <td>Niander Wallace</td>
+                 </tr>
+               </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <figure class="figure">
+               <img src="https://m.media-amazon.com/images/M/MV5BNDkxNzY5MjIxNF5BMl5BanBnXkFtZTgwNDg5NjUyMjI@._V1_SX1777_CR0,0,1777,744_AL_.jpg" class="figure-img img-fluid rounded" alt="...">
+               <figcaption class="figure-caption">Picture from the movie</figcaption>
+              </figure>
+              <figure class="figure">
+               <img src="https://m.media-amazon.com/images/M/MV5BMTU5NTkwNTA2NF5BMl5BanBnXkFtZTgwMjQ5MjY2MzI@._V1_SX1777_CR0,0,1777,744_AL_.jpg" class="figure-img img-fluid rounded" alt="...">
+               <figcaption class="figure-caption">Another picture</figcaption>
+              </figure>
+              <figure class="figure">
+               <img src="https://m.media-amazon.com/images/M/MV5BMjExOTU0NTk2OV5BMl5BanBnXkFtZTgwNzI5MjY2MzI@._V1_SX1500_CR0,0,1500,999_AL_.jpg" class="figure-img img-fluid rounded" alt="...">
+               <figcaption class="figure-caption">One more picture</figcaption>
+              </figure>
+            </div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul class="list-unstyled">
+               <li class="media">
+                 <img src="https://m.media-amazon.com/images/M/MV5BMjE5YzE0MzEtODg0MC00NTY2LTgzNjAtOTU0ZWM3MzJkNDljXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,666,1000_AL_.jpg" class="mr-3 cmtImg" alt="...">
+                 <div class="media-body">
+                   <h5 class="mt-0 mb-1">List-based media object</h5>
+                   Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                 </div>
+               </li>
+               <li class="media my-4">
+                 <img src="https://m.media-amazon.com/images/M/MV5BODUwMTkxNzEzNV5BMl5BanBnXkFtZTgwMzQ0NjQxNDM@._V1_SY1000_CR0,0,1502,1000_AL_.jpg" class="mr-3 cmtImg" alt="...">
+                 <div class="media-body">
+                   <h5 class="mt-0 mb-1">List-based media object</h5>
+                   Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                 </div>
+               </li>
+               <li class="media">
+                 <img src="https://m.media-amazon.com/images/M/MV5BMTUzMDkyMzI2MF5BMl5BanBnXkFtZTgwODIwNjg5MjI@._V1_SY1000_CR0,0,781,1000_AL_.jpg" class="mr-3 cmtImg" alt="...">
+                 <div class="media-body">
+                   <h5 class="mt-0 mb-1">List-based media object</h5>
+                   Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                 </div>
+               </li>
+              </ul>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+     
+
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
